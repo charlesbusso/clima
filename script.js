@@ -25,13 +25,8 @@ const getWeatherData = async (city) => {
 };
 
 const showWeatherData = (city) => {
-    const data = Await getWeatherData(city){
-    cityElement.innerText = data.name;
-}
-
-
- 
-   
+    const data = Await getWeatherData(city);
+    cityElement.innerText = data.name; 
    
 };
 searchBtn.addEventListener('click',(e) => {
