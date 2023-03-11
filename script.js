@@ -14,18 +14,18 @@ let windElement = document.querySelector("#wind span");
 
 
 //funçoes
-  return data;
+  
 const getWeatherData = async (city) => {
     const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={apiKey}&lang=pt_br`;
 
     const res = await fetch(apiWeatherURL);
     const data = await res.json();
-
+     return data;
 };
 
 const showWeatherData = (city) => {
-    const data = Await getWeatherData(city);
-    cityElement.innerText = data.name; 
+    const data = await getWeatherData(city);
+    cityElement.innerText = data.name;
    
 };
 searchBtn.addEventListener('click',(e) => {
