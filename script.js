@@ -3,6 +3,7 @@
 //f7beb48e5ddcfaa49760ec0218e9dbb8
 let apiKey = "f7beb48e5ddcfaa49760ec0218e9dbb8";
 let apiCountryURL = "https://countryflagsapi.com/png/";
+let apiUnsplash = "https://source.unsplash.com/1600x900/?";
 let cityInput = document.querySelector("#city-input");
 let searchBtn = document.getElementById("search");
 let cityElement = document.querySelector("#city");
