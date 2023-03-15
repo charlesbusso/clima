@@ -48,8 +48,11 @@ searchBtn.addEventListener("click",(e) => {
 });
 
 cityInput.addEventListener("keyup", (e) => {
+    if(e.code === "Enter"){
+
     let city = e.target.value
     showWeatherData(city);
+}
 })
 
 
