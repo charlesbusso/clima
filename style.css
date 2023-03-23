@@ -51,35 +51,26 @@ body{
     cursor: pointer;
 }
 /*clima*/
-#weather-data{
-    border-top: 1px solid #fff;
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    text-align: center;
-}
-#weather-data h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-#weather-data h2 i{
-    font-size: 1rem;
-}
-#weather-data span{
-    margin: 0.7rem;
-    
-}
-#weather-data img{
-    width: 1.5rem;
-    height: 1.3rem;
-}
+
+
 #country{
     height: 15px;
 }
 #description{
     font-weight: bold;
     text-transform: capitalize;
+}
+#weather-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.3;
+    
+    
+}
+#city{
+    margin-top: 60px;
 }
 #description-container{
     display: flex;
